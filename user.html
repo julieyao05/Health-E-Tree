@@ -1,0 +1,31 @@
+<!doctype html> 
+
+<html>
+<script>
+	function goBack() {
+		window.history.back();
+	}
+</script>
+<head>
+	<meta name="description" content="CSE170 Web app">
+	<title>User page</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Amatic+SC" />
+	<style>
+		h1 {
+			color: #4169E1;
+			font: 400 100px/1.3 'Amatic SC';
+		  	text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0.15);
+			text-align: center;
+		}
+	</style>
+
+</head>
+<body>
+	<h1>Family Web</h1>
+	<button onclick="goBack()" id="back-button">Back</button>
+	<a href="home.html"><button id="home-button">Home</button></a>
+	<a href="add.html"><button id="add-button">Add</button></a>
+	
+</body>
+</html>

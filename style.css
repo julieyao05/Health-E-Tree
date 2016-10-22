@@ -1,0 +1,58 @@
+body {
+	background-color: #F5FFFA;
+}
+h2 {
+	text-align: center;
+	font-family: Georgia;
+}
+p {
+	font-size: 150%;
+	font-family: Georgia;
+	text-align: center;
+	word-wrap: break-word;
+}
+.wrapper {
+	text-align: center;
+}
+#login-button {
+	position: center;
+	top: 60%;
+	width: 90px;
+	height: 50px;
+	font-size:120%;
+}
+#back-button {
+	width: 70px;
+	height: 50px;
+	font-size: 110%;
+	position: absolute;
+    top: 0;
+    left: 0;
+}
+#finish-button {
+	width: 70px;
+	height: 50px;
+	font-size: 110%;
+	position:relative;
+	left: 50%;
+	margin-top:50%;
+}
+#home-button {
+	width: 70px;
+	height: 50px;
+	font-size: 110%;
+	position: absolute;
+    top: 0;
+    right: 0;
+}
+#add-button {
+	width: 70px;
+	height: 50px;
+	font-size: 110%;
+	position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#edit-button {
+	
+}
