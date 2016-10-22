@@ -24,18 +24,21 @@
 <body>
 	<h1>New member</h1>
 	<button onclick="goBack()" id="back-button">Cancel</button>
-	
-	<form action="handler.php">
-		Name<input type="text" name="name"><br>
-		Relationship<input type="text" name="relationship"><br>
-		Gender<br><input type="radio" name="gender" value="male" checked> Male<br>
-			  <input type="radio" name="gender" value="female"> Female<br>
-			  <input type="radio" name="gender" value="other"> Other<br>
-		Height<input type="text" name="height"><br>
-		Weight<input type="text" name="weight"><br>
+	<div class="wrapper">
+		<form action="handler.php">
+			<label>Name</label><input type="text" name="name"><br>
+			<label>Relationship</label><input type="text" name="relationship"><br>
+			<label>Gender</label><br>
+				<input type="radio" name="gender" value="male"> Male<br>
+				<input type="radio" name="gender" value="female"> Female<br>
+				<input type="radio" name="gender" value="other"> Other<br>
+			<label>Age</label><input type="text" name="age"><br>
+			<label>Height</label><input type="text" name="height"><br>
+			<label>Weight</label><input type="text" name="height"><br>
 
-
-	</form>
+			<input type="reset">
+		</form>
+	</div>
 	<a href="user.html"><button id="finish-button">Finish</button></a>
 </body>
 </html>
