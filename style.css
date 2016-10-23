@@ -26,6 +26,15 @@ input {
 	display: inline-block;
 	float: center;
 }
+.radio-input {
+   display: inline-block;
+    float: left;
+}
+.radio-label {
+   display: inline-block;
+    vertical-align: top;
+    margin-right: 3%;
+}
 
 #login-button {
 	position: center;
