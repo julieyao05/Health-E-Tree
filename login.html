@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta name="description" content="CSE170 Web app">
-	<title>Member info page</title>
+	<title>Sign up</title>
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Amatic+SC" />
 	<style>
@@ -14,17 +14,19 @@
 			text-align: center;
 		}
 	</style>
-
 </head>
 <body>
-	<h1>info</h1>
+	<h1>Log in</h1>
 	<ul>
 		<li><img src="homebutton.png" id="home-button"><a href="home.html">Home</a></li>
-  		<li><img src="addbutton.png" id="add-button"><a href="add.html">Add New Member</a></li>
-  		<li><img src="backbutton.png" id="back-button"><a href="user.html">Family Tree</a></li>
-  		<li><img src="unlocked.png" id="logout-button"><a href="home.html">Log out</a></li>
- 
 	</ul>
-
+	<div class="wrapper">
+		<form>
+		<label>User name</label><input type="text" name="username"><br>
+			<label>Password</label><input type="password" name="pwd"><br>
+		</form>	
+		<div><img src="loginbutton.png" onclick="location.href='user.html'" id="login-button"></a></div>
+		<div><a href="signup.html">First-time user? Sign up here!</a></div>
+	</div>
 </body>
 </html>
