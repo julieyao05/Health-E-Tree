@@ -35,10 +35,30 @@
 	<h1>New member</h1>
 	<div class="wrapper">
 		<form id="newmember" method="get" action="/user">
-			<label>Name</label><input type="text" name="name" required="true"><br>
-			<label>Relationship</label><input type="text" name="relationship" required="true"><br>
-			<label>Family Side</label>
-			<input type"text" name="side" placeholder="Enter 'mom' or 'dad'" required="true"><br>
+			<!-- Text input-->
+			<div class="form-group">
+			  <label class="col-md-4 control-label">Name</label>  
+			  <div class="col-md-3">
+			  <input name="name" type="text" class="form-control input-md" required="true">
+			    
+			  </div>
+			</div>
+
+			<!-- Text input-->
+			<div class="form-group">
+			  <label class="col-md-4 control-label">Relationship</label> 
+			  <div class="col-md-3">
+			  <input name="relationship" type="text" class="form-control input-md" required="true">
+			  </div>
+			</div>
+
+			<!-- Text input-->
+			<div class="form-group">
+			  <label class="col-md-4 control-label">Family Side</label>  
+			  <div class="col-md-3">
+			  <input name="side" type="text" placeholder="Enter 'mom' or 'dad'" class="form-control input-md" required="true">
+			  </div>
+			</div>
 			<label>Gender</label>
 			<input type"text" name="gender"><br>
 			<label>Age</label><input type="text" name="age"><br>

@@ -39,9 +39,29 @@
 		<input type="hidden" name="id" value="{{_id}}">
 		<input type="hidden" name="oldname" value="{{name}}">
 		<input type="hidden" name="update" value="1">
-		<label>Name</label><input type="text" name="name" value="{{name}}"><br>
-		<label>Relationship</label><input type="text" name="relationship" value="{{relationship}}"><br>
-		<label>Family Side</label><input type="text" name="side" value="{{side}}"><br>
+		<div class="form-group">
+			  <label class="col-md-4 control-label">Name</label>  
+			  <div class="col-md-3">
+			  <input name="name" type="text" class="form-control input-md" value="{{name}}" required="true">
+			  </div>
+			</div>
+
+			<!-- Text input-->
+			<div class="form-group">
+			  <label class="col-md-4 control-label">Relationship</label> 
+			  <div class="col-md-3">
+			  <input  name="relationship" value="{{relationship}}" type="text" class="form-control input-md" required="true">
+			  </div>
+			</div>
+
+			<!-- Text input-->
+			<div class="form-group">
+			  <label class="col-md-4 control-label">Family Side</label>  
+			  <div class="col-md-3">
+			  <input name="side" value="{{side}}" type="text" placeholder="Enter 'mom' or 'dad'" class="form-control input-md" required="true">
+			  </div>
+			</div>
+
 		<!--<label>Family Side</label>
 			<input type"text" name="side" value="{{side}}" disabled="true"><br>-->
 		<label>Gender</label>
